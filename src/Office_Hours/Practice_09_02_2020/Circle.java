@@ -26,6 +26,10 @@ public class Circle {
         return  diameter * PI;
     }
 
+    public String toString(){
+        return "Radius: "+ radius + ", Diameter: "+ diameter+ ", " +
+                "Area: " + area + ", Perimeter: " + perimeter;
+    }
 
 
 }

@@ -30,8 +30,20 @@ public class CircleObject {
         System.out.println("Circle3 area: " + circle3.area);
         System.out.println("Circle3 perimeter: " + circle3.perimeter);
 
+        System.out.println("===============");
 
+        System.out.println("Area: "+ new Circle(10).area);
+        System.out.println("Perimeter: "+ new Circle(10).perimeter);
 
+        System.out.println("===============");
+// toString method kullanilmamissa Hashcode error verir
+//        System.out.println(circle1);
+//        System.out.println(circle2);
+//        System.out.println(circle3);
+
+        System.out.println(circle1);
+        System.out.println(circle2);
+        System.out.println(circle3);
 
     }
 
