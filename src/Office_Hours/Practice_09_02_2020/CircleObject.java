@@ -12,6 +12,7 @@ public class CircleObject {
        // System.out.println("Circle1 perimeter: " + circle1.calculatePerimeter());
         System.out.println("Circle1 perimeter: " + circle1.perimeter);
 
+        System.out.println("===============");
 
         Circle circle2 = new Circle(5);
         System.out.println("Circle2 radius: " + circle2.radius);
@@ -20,7 +21,7 @@ public class CircleObject {
         System.out.println("Circle2 area: " + circle2.area);
         System.out.println("Circle2 perimeter: " + circle2.perimeter);
 
-
+        System.out.println("===============");
 
         Circle circle3 = new Circle(6);
         System.out.println("Circle3 radius: " + circle3.radius);
