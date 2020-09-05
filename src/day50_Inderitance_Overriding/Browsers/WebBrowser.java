@@ -8,9 +8,9 @@ Browsers task:
 public class WebBrowser {
 
     public void get(String URL){
-        System.out.println("Qpening the" + URL +" in the default browser");
+        System.out.println("Opening the" + URL +" in the default browser");
     }
     public void close(){
-        System.out.println("Closes the default browser");
+        System.out.println("Closing the default browser");
 }
 }
